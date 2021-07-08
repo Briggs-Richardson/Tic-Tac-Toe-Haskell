@@ -66,7 +66,7 @@ playGame game@Game{turn=Computer} difficulty = do
 chooseOnDifficulty :: Game -> String -> Int
 chooseOnDifficulty game difficulty 
   | difficulty == easy   = fst $ minimax game 1 0 Computer
-  | difficulty == normal = fst $ minimax game 5 0 Computer
+  | difficulty == normal = fst $ minimax game 4 0 Computer
   | otherwise            = fst $ minimax game 9 0 Computer
 
 
