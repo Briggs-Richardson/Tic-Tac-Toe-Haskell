@@ -18,7 +18,7 @@ In order to run the program, you're going to need either the haskell interpreter
 
 I prefer the haskell interpreter, ghci. As shown in the above gif, you can run the program as follows
 
-ghci main.hs
+ghci Main.hs
 > main
 
 Here's a helpful link if you are having any problems. https://wiki.haskell.org/Haskell_in_5_steps
